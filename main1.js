@@ -1,24 +1,4 @@
-/*function passer() {
 
-    var li = document.createElement("p");//crer le element de html//
-    var inputValue = document.getElementById("login").value;//selectionner le contenu de element html a le id //
-    var t = document.createTextNode(inputValue);
-    console.log(t)
-    li.appendChild(t);
-    console.log(li)
-    if (inputValue === '') {
-    alert("Entrer la tache a réaliser!");
-    } else {
-    // const user= document.getElementById("mes_taches").appendChild(li);
-     const str1='hello'
-     console.log(str1.concat(' ',inputValue));
-     document.getElementById("users").textContent= str1.concat(' ',inputValue);
-
-    
-
-    }
-}
-*/
 
 
 //console.log((document.forms["connexion"]["Username"]));

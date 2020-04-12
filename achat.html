@@ -5,22 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- main css -->
-  <link rel="stylesheet" href="css/style2.css">
+
+
 
   <!-- font awesome -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
  <!-- <link rel="stylesheet" href="css/all.css">-->
 
- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style2.css">
 <!------ Include the above in your HEAD tag ---------->
 
-  <title>Cart Project</title>
+  <title>hand made</title>
   <style>
   </style>
 </head>
@@ -45,7 +48,7 @@
             <a class="nav-link " href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Register</a>
+            <a class="nav-link " href="register.html">Register</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#article">store</a>
@@ -71,19 +74,27 @@
     </nav>
       <!-- end of nav -->
       
+      
     <!-- banner  -->
-    <div class="container-fluid">
+  <div class="container-fluid">
         <div class="row max-height justify-content-center align-items-center">
           <div class="col-10 mx-auto banner text-center">
             <h1 class="text-capitalize">welcome to <strong class="banner-title ">hand  made</strong></h1>
-            <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+            <a href="#article" class="btn banner-link text-uppercase " id="btn-explore">explore</a>
   
-          </div></div>
-          </div></header>
-          <!--end banner-->
-          <div id="cart" class="cart">
+          </div>
+              </div>
+          </div>
+  
+          </div>
+          <!--end of banner-->
+
+
+
+
+        <!--  <div id="cart" class="cart">-->
             <!-- cart item -->
-          <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+         <!--   <div class="cart-item d-flex justify-content-between text-capitalize my-3">
               <img src="img-cart/cake-2.jpeg" class="img-fluid rounded-circle" id="item-img" alt="">
               <div class="item-text">
   
@@ -97,7 +108,7 @@
             </div>
             <!--end of  cart item -->
             <!-- cart item -->
-          <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+        <!-- <div class="cart-item d-flex justify-content-between text-capitalize my-3">
               <img src="img-cart/doughnut-2.jpeg" class="img-fluid rounded-circle" id="item-img" alt="">
               <div class="cart-item-text">
   
@@ -111,13 +122,13 @@
             </div>
             <!--end of  cart item -->
             <!-- cart total -->
-            <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+             <!--<div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
               <h5>total</h5>
               <h5> $ <strong id="cart-total" class="font-weight-bold">0.00</strong> </h5>
             </div>
             <!--end cart total -->
             <!-- cart buttons -->
-            <div class="cart-buttons-container mt-3 d-flex justify-content-between">
+            <!-- <div class="cart-buttons-container mt-3 d-flex justify-content-between">
               <a href="#" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">clear cart</a>
               <a href="#" class="btn btn-outline-secondary text-uppercase btn-pink">checkout</a>
             </div>
@@ -126,9 +137,12 @@
           </div>
         </div>
       </div>
-  
-  
-  
+
+
+
+
+        </header>
+      
           <!-- about us -->
   <section class="about py-5" id="about">
     <div class="container">
@@ -144,7 +158,7 @@
         </div>
         <div class="col-10 mx-auto col-md-6 align-self-center my-5">
           <div class="about-img">
-            <img src="img/produitg.jpeg" class="img-fluid" alt="">
+            <img src="img/zina8.png" class="img-fluid" alt="">
           </div>
         </div>
       </div>
@@ -153,39 +167,7 @@
 
   <!-- end of about us -->
 
-  <!--items store-->
-  <!--<section id="store" class="store py-5">
-    <div class="container">
-      <!-- section title -->
-   <!--   <div class="row">
-        <div class="col-10 mx-auto col-sm-6 text-center">
-          <h1 class="text-capitalize">our <strong class="banner-title ">store</strong></h1>
-        </div>
-      </div>
-  <!-- store  items-->
-  <!--<div class="row" class="store-items" id="store-items">
-    <!-- single item -->
-   <!-- <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-      <div class="card ">
-        <div class="img-container">
-          <img src="img/bracelet1.jpeg" class="card-img-top store-img" alt="">
-          <span class="store-item-icon">
-            <i class="fa fa-shopping-cart"></i>
-          </span>
-        </div>
-        <div class="card-body">
-          <div class="card-text d-flex justify-content-between text-capitalize">
-            <h5 id="store-item-name">sweet item</h5>
-            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
 
-          </div>
-        </div>
-
-
-      </div>
-      <!-- end of card-->
-  <!--  </div>
-    <!--end of single store item-->
 
     <section id="store" class="store py-5">
         <div class="container">
@@ -225,7 +207,7 @@
         <div class="col-md-3">
             <figure class="card card-product">
                 <div class="img-wrap"> 
-                  <img src="img/scarf.jpg">
+                  <img src="img/dd.jpg">
                 <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
                 </div>
                 <figcaption class="info-wrap">
@@ -244,7 +226,7 @@
         </div> <!-- col // -->
         <div class="col-md-3">
             <figure class="card card-product">
-                <div class="img-wrap"><img src="img/cofin4.jpeg"> 
+                <div class="img-wrap"><img src="img/sac2.jpg"> 
                 <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
                 </div>
                 <figcaption class="info-wrap">
@@ -263,7 +245,7 @@
         </div>
         <div class="col-md-3">
             <figure class="card card-product">
-                <div class="img-wrap"><img src="img/barcelet3.jpeg"> 
+                <div class="img-wrap"><img src="img/cc.jpg"> 
                 <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
                 </div>
                 <figcaption class="info-wrap">
@@ -283,14 +265,13 @@
         <div class="col-md-3">
           <figure class="card card-product">
               <div class="img-wrap"> 
-                <img src="img/scarf.jpg">
+                <img src="img/co.jpg">
               <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
               </div>
               <figcaption class="info-wrap">
                   <h6 class="title text-dots"><a href="#">bracelet</a></h6>
                   <div class="action-wrap">
-                      <!--<a href="#article" class="btn btn-primary btn-sm float-right" name="btn2"> Order </a>
-                    <!-- action-wrap -->
+                              <!-- action-wrap -->
                       <div class="price-wrap h5">
                           <span class="price-new">$500</span>
                       </div> 
@@ -303,13 +284,12 @@
       <div class="col-md-3">
         <figure class="card card-product">
             <div class="img-wrap"> 
-              <img src="img/scarf.jpg">
+              <img src="img/zina3.png">
             <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
             </div>
             <figcaption class="info-wrap">
                 <h6 class="title text-dots"><a href="#">bracelet</a></h6>
                 <div class="action-wrap">
-                    <!--<a href="#article" class="btn btn-primary btn-sm float-right" name="btn2"> Order </a>
                   <!-- action-wrap -->
                     <div class="price-wrap h5">
                         <span class="price-new">$500</span>
@@ -323,7 +303,7 @@
     <div class="col-md-3">
       <figure class="card card-product">
           <div class="img-wrap"> 
-            <img src="img/scarf.jpg">
+            <img src="img/sac.jpg">
           <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
           </div>
           <figcaption class="info-wrap">
@@ -343,7 +323,7 @@
   <div class="col-md-3">
     <figure class="card card-product">
         <div class="img-wrap"> 
-          <img src="img/scarf.jpg">
+          <img src="img/do.jpg">
         <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
         </div>
         <figcaption class="info-wrap">
@@ -364,7 +344,59 @@
         </div>
         </div>
         </section>
-     
+     <footer>
+         <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Hand Made <i>Your Best shopping en ligne </i> <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga nostrum perspiciatis voluptatem. Sed soluta dolores officiis voluptatum?  </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">Sac</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">Accesoire</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">cAP</a></li>
+             
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="achat.html">About Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Store</a></li>
+              <li><a href="register.html">Register</a></li>
+            
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a href="#">Hand Made</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-twitter"></i></a></li>
+                            
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+     </footer>
+     <!-- apel fichier javascript-->
         <script type="text/javascript" src="main1.js"></script>
         <script type="text/javascript" src="recup.js"></script>
         <script type="text/javascript" src="main.js"></script>

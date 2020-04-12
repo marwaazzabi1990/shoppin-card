@@ -35,3 +35,16 @@ background:pink;
   margin-left: 300px;
   border-radius:yellow;
   box-shadow:0 4px 10px 4px pink;}
+  input{
+    height: 30px;
+    border-radius: 5px;
+    width: 400px;
+  }
+  .btn-subnit{
+    height: 30px;
+    width: 100px;
+    background-color:blueviolet;
+  }
+  p{
+   font-size: small;
+  }

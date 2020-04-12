@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+
+   <!-- font awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+   
+    <!------ Include the above in your HEAD tag ---------->
+
+<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">-->
+<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <header> 
+        <nav class="navbar navbar-expand-lg px-4">
+            <a class="navbar-brand" href="#">
+                <img  src="img/log2.jpeg" class="img" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+              <span class="toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNav">
+              <ul class="navbar-nav mx-auto text-capitalize">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="achat.html">store</a>
+                </li>
+              </ul>
+              <div class="nav-info-items d-none d-lg-flex ">
+                <!-- single info -->
+                <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                  <span class="info-icon mx-lg-3"><i class="fa fa-phone"></i></span>
+                  <p class="mb-0">+ 26 77 55 66</p>&nbsp;&nbsp;&nbsp;
+                  
+                </div>
+               
+                  </div>
+            </div>
+          </nav>
+      
+        </header>
+    <!--gggggg-->
+<main>
+
+<div class="inscription clearfix">
+    
+
+
+    <form name="connexion"  onsubmit="result()" action="achat.html">
+      <h2>Inscription</h2>
+      <input type="text" name="nom" id="login" placeholder="Write your name" required/>
+      
+      <br>
+      <input type="mail" name="nom" placeholder="Write your email" required/>
+      <br>
+      <input type="number" name="text" placeholder="write your number"><br>
+      <input type="password" name="pass1" placeholder="Write your password" required data-help="6 caractères minimum, au moins une majuscule et un chiffre" id="pass1">
+      <br>
+      <input type="password" name="pass2" placeholder="Repeat your password" required id="pass2">
+      <br>
+      <button class="btn-register" type="submit">Register</button>
+      <br>
+      <p> <a href="connexion.html">You have an account logged in!</a></p>
+    </form>
+
+    <div class="compte">
+        <button class="btn btn-primary"><i class="fa fa-facebook"></i>&nbsp;&nbsp;Connect with facebook</button>
+        <br>
+        <button class="btn btn-danger"><i class="fa fa-google"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connect with Gmail</button>
+    </div>
+   
+
+    </div>
+    <br><br><br>
+        <div class="vide">
+   </div>
+  </main>
+     <!-- Site footer -->
+     <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Hand Made <i>Your Best shopping en ligne </i> <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga nostrum perspiciatis voluptatem. Sed soluta dolores officiis voluptatum?  </p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/category/c-language/">Sac</a></li>
+                <li><a href="http://scanfcode.com/category/front-end-development/">Accesoire</a></li>
+                <li><a href="http://scanfcode.com/category/back-end-development/">cAP</a></li>
+               
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="achat.html">About Us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Store</a></li>
+                <li><a href="register.html">Register</a></li>
+              
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+           <a href="#">Hand Made</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-twitter"></i></a></li>
+                              
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+       </footer>
+    <script type="text/javascript" src="register.js"></script>  
+</body>
+</html>

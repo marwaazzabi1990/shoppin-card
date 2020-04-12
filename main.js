@@ -42,7 +42,7 @@ let nb=art.length
   //const finalMoney=totalMoney.toFixed(2);
   document.getElementById("item-total").textContent=total;
   document.getElementById("item-count").textContent=nb;
-  alert('vous avez ajouter cette article a votre panier');
+  alert('do you want to add this item to your cart?');
 
     console.log("its clicked")
 
