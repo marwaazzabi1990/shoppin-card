@@ -41,9 +41,14 @@ background:pink;
     width: 400px;
   }
   .btn-subnit{
-    height: 30px;
-    width: 100px;
-    background-color:blueviolet;
+    height: 40px;
+  width: 100px;
+  background-color:blue;
+  color: #000;
+  text-align: center;
+  }
+  .btn-subnit:hover{
+    opacity: 0.5;
   }
   p{
    font-size: small;

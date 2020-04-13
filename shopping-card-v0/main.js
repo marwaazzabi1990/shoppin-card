@@ -47,6 +47,12 @@ let nb=art.length
     console.log("its clicked")
 
   }
+  function vider(){
+    var list =document.getElementById('item-count')
+    document.getElementById("item-total").textContent=0;
+    document.getElementById("item-count").textContent=0;
+}
+
 
 
 

@@ -1,4 +1,5 @@
 
+
   
   body {
     font-family: "Kaushan Script", cursive;
@@ -200,6 +201,7 @@ width: 200px;  }
   padding-left:0;
   list-style:none
 }
+
 .footer-links li
 {
   display:block
@@ -318,27 +320,6 @@ width: 200px;  }
   }
 }
 
-/*cart show*/
-/* cart  */
-/*.cart {
-  position: absolute;
-  min-height: 10rem;
-  background: white;
-  top: 0;
-  right: 0;
-  transition: all 0.3s ease-in-out;
-  background: rgba(255, 255, 255, 0.5);
-  width: 0;
-  overflow: hidden;
-}
-.show-cart {
-  width: 18rem;
-  padding: 2rem 1.5rem;
-  transform: rotateY(-360deg);
-}
-.cart-item {
-  transition: all 2s ease-in-out;
-}
 
 /* end of cart */
 /* cart item */
@@ -372,5 +353,14 @@ width: 200px;  }
   color: black !important;
 }
 /* end of cart buttons */
+/* action*/
+.action{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
 
 
